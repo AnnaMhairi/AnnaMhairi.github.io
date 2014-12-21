@@ -1,0 +1,35 @@
+* {
+  font-family: Helvetica;
+  background-color: #A3B6C8;
+  color:  #3D5062;
+}
+
+.header {
+
+  text-align: center;
+  display: block;
+  color:  #E65C5C;
+
+    }
+
+    .post {
+
+      float: left;
+      width: 500px;
+      color:  #E65C5C;
+ }
+    .photo{
+
+      float: right;
+      width: 250px;
+      display: inline-block;
+      clear: both;
+
+    }
+
+    .about {
+      float: right;
+      width: 250px;
+      display: block;
+      clear: both;
+    }
