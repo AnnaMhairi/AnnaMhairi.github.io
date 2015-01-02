@@ -1,0 +1,128 @@
+
+
+* {
+  background-color: #ffffff;
+   font-family: 'Raleway', sans-serif;
+  color: #548687;
+
+}
+
+.head {
+    color: #ffffff;
+  text-align: center;
+  background-color: #607D8B;
+  padding-top: 75px;
+  background-image:url(http://2.bp.blogspot.com/-Lom4dkjKL40/UKQvDQq7RqI/AAAAAAAAC4M/M1bmNB_OjzE/s1600/wire_00131.png);
+
+}
+
+
+h1 {
+  color: #ffffff;
+  text-align: center;
+  background-color: #607D8B;
+  border-style: dotted;
+  border-color: #CFD8DC;
+  padding: 50px;
+  border-left: none;
+  border-right: none;
+  font-size: 2em;
+  font-family: 'Amatic SC';
+}
+
+.sub {
+  font-size: .5em;
+  background-color: #607D8B;
+  font-family: 'Amatic SC';
+  color: #CFD8DC;
+}
+
+
+footer {
+  border-color: #607D8B;
+  border-style: dotted;
+  text-align: center;
+  clear: all;
+  font-family: 'Amatic SC';
+  border-right: none;
+  border-left: none;
+  font-weight: bold;
+  font-size: 1em;
+  margin-top: 15em;
+}
+
+
+a:link {
+  text-decoration: none;
+   border-color: black;
+  border-width: 1px;
+  border-style: double;
+  padding: 5px;
+  background-color: #CFD8DC;
+  color: #455A64;
+text-align: center;
+font-weight: bold;
+font-family: 'Amatic SC';
+}
+
+a:hover {
+  color:  #ff4081;
+}
+
+h6 {
+    color: #212121;
+    margin-left: 10px;
+    font-size: 1.5em;
+    font-family: 'Amatic SC';
+    font-weight: bold;
+}
+
+p {
+  margin-left: 20px;
+}
+
+.send {
+  color: #607D8B;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.leftcol {
+  margin-left: 10px;
+  display: inline-block;
+  border-color: #ff4081;
+  border-style: solid;
+  border-width: .5em;
+    width: 50em;
+    margin-top: 75px;
+}
+
+.about {
+  margin-right: 10px;
+  margin-left: auto;
+  display: block;
+  border-color: #ff4081;
+  border-style: solid;
+  border-width: .5em;
+  width: 20em;
+  margin-top: 75px;
+  text-align: center;
+
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: none;
+}
+
+.title {
+  margin-top: 5px;
+  padding-top: 25px;
+}
+
+.link {
+  margin-left: 10px;
+}
