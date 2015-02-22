@@ -1,0 +1,41 @@
+---
+layout: post
+title: CSS Positioning
+---
+
+The concepts of relative, absolute, and fixed positioning using CSS can be extremely confusing to a newcomer to web design. I have recently started learning basic HTML and CSS, and have definitely struggled the most with the topic of positioning elements on the page. I have resorted largely to a process of trial and error, but actually researching the specific ways to position elements is a much more time-efficient and less frustrating method. In this post, I will discuss relative, absolute, and fixed postioning in CSS since these concepts were the trickiest for me to get my head around at first.
+
+CSS, or Cascading Style Sheets, is a language used to design and personalize HTML (HyperText Markup Lanaguage) documents. It is largely used in a separate document from the HTML document it is styling, and is linked to that document in the header. CSS works by singling out elements on a page, and then applying specified designs to that element - or group of elements. In order to explain the concepts of relative, absolute, and fixed positioning in CSS, it is first important to understand that each element on a webpage - established in the HTML document - is a separate entity, or block, composed of pixels - the dots that make up the picture on a display screen. Using this type of mental framework to view an HTML document, or webpage, through makes it much easier to figure out how positioning works in HTML and CSS.
+
+For newcomers to CSS, here is a brief explanation of the syntax used in this language:
+
+
+              selector {
+                  property: value;
+                  another_property: another_value;
+                  etc.
+                  etc.
+              }
+
+              another_selector {
+                  property: value;
+                  etc.
+              }
+
+
+The "selectors" used above are taken directly from the HTML document based upon which selector it is that you would like to stylize in your CSS document. Once you have defined the selector that you are modifying, you use "properties" in order to define which category you would like to get your styling elements from. For the purpose of this post, the property we would be looking at is "position". The final element, "value", is the most specific of all the definitions we have reviewed: Value covers the exact way you would like to change the selector within the category of the property. In our case, the values would be 'absolute', 'relative', or 'fixed'.
+
+To put it all together, if we wanted to set a paragraph's (represented by 'p' in HTML) postioning in an HTML document, we would use this language in our CSS document:
+
+
+            p {
+            position: absolute;
+            OR
+            position: relative;
+            OR
+            position: fixed;
+          }
+
+So now that we have established the basis of HTML and CSS syntax, I will clarify what absolute, relative, and fixed positioning actually mean for an object on your page. Absolute positioning is the most extreme value of the position property, or category. Using absolute positioning, you can decide exactly where you would like to place and object on your webpage. If an object is positioned using absolute positioning, it's positioning will not be affected by other objects on the page. Relative positioning is more confusing since its definition is slightly counterintuitive. Setting an object's position property to the value relative means that the object will move in a manner that's relative to itself. Relative positioning is actually null unless other positioning attributes are also changed. For example, if the property 'left' was set to the value of 100px, the block in question would shift to the right 100px (from where it would naturally be in the document). The final positioning value, fixed, is used when you want to set an object in a certain position that will stay put even if you scroll up, down, left, or right. Fixed positioning is often used for elements such as scroll bars or headers that the designer planned for the user to see regardless of how far they scroll down the page.
+
+Well, that was a lot of information for one post, and is still far from being a comprehensive guide to this topic in CSS, but hopefully it was a helpful primer for a beginner! Here is a link to a great (free!) place to practice these concepts in-depth: http://www.codecademy.com/en/tracks/web -- Good luck!

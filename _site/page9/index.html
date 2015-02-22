@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="UTF-8">
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Anna MacDonald &middot; 
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/atom+xml" title="Anna MacDonald" href="/atom.xml">
+</head>
+
+
+  <body>
+
+    <div class="container content">
+      <header class="masthead">
+        <h3 class="masthead-title">
+          <a href="/" title="Home">Anna MacDonald</a>
+          <small></small>
+        </h3>
+      </header>
+
+      <main>
+        <div class="posts">
+  
+  <article class="post">
+    <h1 class="post-title">
+      <a href="/2015/01/04/css-design/">
+        CSS Positioning
+      </a>
+    </h1>
+
+    <time datetime="2015-01-04T00:00:00-08:00" class="post-date">04 Jan 2015</time>
+
+    <p>The concepts of relative, absolute, and fixed positioning using CSS can be extremely confusing to a newcomer to web design. I have recently started learning basic HTML and CSS, and have definitely struggled the most with the topic of positioning elements on the page. I have resorted largely to a process of trial and error, but actually researching the specific ways to position elements is a much more time-efficient and less frustrating method. In this post, I will discuss relative, absolute, and fixed postioning in CSS since these concepts were the trickiest for me to get my head around at first.</p>
+
+<p>CSS, or Cascading Style Sheets, is a language used to design and personalize HTML (HyperText Markup Lanaguage) documents. It is largely used in a separate document from the HTML document it is styling, and is linked to that document in the header. CSS works by singling out elements on a page, and then applying specified designs to that element - or group of elements. In order to explain the concepts of relative, absolute, and fixed positioning in CSS, it is first important to understand that each element on a webpage - established in the HTML document - is a separate entity, or block, composed of pixels - the dots that make up the picture on a display screen. Using this type of mental framework to view an HTML document, or webpage, through makes it much easier to figure out how positioning works in HTML and CSS.</p>
+
+<p>For newcomers to CSS, here is a brief explanation of the syntax used in this language:</p>
+
+<pre><code>          selector {
+              property: value;
+              another_property: another_value;
+              etc.
+              etc.
+          }
+
+          another_selector {
+              property: value;
+              etc.
+          }
+</code></pre>
+
+<p>The “selectors” used above are taken directly from the HTML document based upon which selector it is that you would like to stylize in your CSS document. Once you have defined the selector that you are modifying, you use “properties” in order to define which category you would like to get your styling elements from. For the purpose of this post, the property we would be looking at is “position”. The final element, “value”, is the most specific of all the definitions we have reviewed: Value covers the exact way you would like to change the selector within the category of the property. In our case, the values would be ‘absolute’, ‘relative’, or ‘fixed’.</p>
+
+<p>To put it all together, if we wanted to set a paragraph’s (represented by ‘p’ in HTML) postioning in an HTML document, we would use this language in our CSS document:</p>
+
+<pre><code>        p {
+        position: absolute;
+        OR
+        position: relative;
+        OR
+        position: fixed;
+      }
+</code></pre>
+
+<p>So now that we have established the basis of HTML and CSS syntax, I will clarify what absolute, relative, and fixed positioning actually mean for an object on your page. Absolute positioning is the most extreme value of the position property, or category. Using absolute positioning, you can decide exactly where you would like to place and object on your webpage. If an object is positioned using absolute positioning, it’s positioning will not be affected by other objects on the page. Relative positioning is more confusing since its definition is slightly counterintuitive. Setting an object’s position property to the value relative means that the object will move in a manner that’s relative to itself. Relative positioning is actually null unless other positioning attributes are also changed. For example, if the property ‘left’ was set to the value of 100px, the block in question would shift to the right 100px (from where it would naturally be in the document). The final positioning value, fixed, is used when you want to set an object in a certain position that will stay put even if you scroll up, down, left, or right. Fixed positioning is often used for elements such as scroll bars or headers that the designer planned for the user to see regardless of how far they scroll down the page.</p>
+
+<p>Well, that was a lot of information for one post, and is still far from being a comprehensive guide to this topic in CSS, but hopefully it was a helpful primer for a beginner! Here is a link to a great (free!) place to practice these concepts in-depth: http://www.codecademy.com/en/tracks/web – Good luck!</p>
+
+  </article>
+  
+</div>
+
+<div class="pagination">
+  
+    <a class="pagination-item older" href="/page10">Older</a>
+  
+  
+    
+      <a class="pagination-item newer" href="/page8">Newer</a>
+    
+  
+</div>
+
+      </main>
+
+      <footer class="footer">
+        <small>
+          &copy; <time datetime="2015-02-22T11:15:15-08:00">2015</time>. All rights reserved.
+        </small>
+      </footer>
+    </div>
+
+  </body>
+</html>

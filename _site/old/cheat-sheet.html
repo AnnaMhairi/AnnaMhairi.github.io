@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Ruby Enumerable Cheat Sheet</title>
+   <link href="cheat-sheet.css" rel="stylesheet" />
+</head>
+<body>
+   <header>
+       <h1>Ruby Enumerable Cheat Sheet</h1>
+   </header>
+   <table border = "1" style = "padding:10px; background-color:white">
+ <tr class="row">
+  <td><h4>List of Methods</h4></td>
+  <td><h4>Description</h4></td>
+ </tr>
+ <tr class="row">
+  <td>#each</td>
+  <td>
+     each {|x| ...}
+     <br>
+     <br>
+     Yields all elements.
+  </td>
+ </tr>
+
+ <tr class="row">
+  <td>#include?(value)</td>
+  <td>
+     <br>
+     <br>
+     Returns true if any elements == value
+  </td>
+ </tr>
+
+ <tr class="row">
+  <td>#map or collect</td>
+  <td>
+    map/collect {|x| ...}
+     <br>
+     <br>
+     Returns an array with the results from block.
+  </td>
+ </tr>
+
+ <tr class="row">
+  <td>#each_with_index</td>
+  <td>
+     each_with_index {|x, i| ...}
+     <br>
+     <br>
+     Yields all elements with their indeces.
+  </td>
+ </tr>
+
+ <tr class="row">
+  <td>#sort</td>
+  <td>
+    sort [{|a, b| ...}]
+     <br>
+     <br>
+     Returns array sorted by <=> operator or by block. Default block { |a, b| a <=> b }.
+  </td>
+ </tr>
+
+ <tr class="row">
+  <td>#all?</td>
+  <td>
+    [a, b, c].all? {|letter| letter.length >= 3} #true
+     <br>
+     <br>
+     Passes each element of the collection to the given block. The method returns true if the block never returns false.
+  </td>
+ </tr>
+
+  <tr class="row">
+  <td>#count</td>
+  <td>
+    ar1 = [1,2,4,3]
+    ar1.count # = 4
+     <br>
+     <br>
+     Returns the number of items in enum through enumeration.
+  </td>
+ </tr>
+
+</table>
+   <footer>
+       <hr />
+       Created by Joyce de la Torre and Anna MacDonald. Copyright (C) 2015. All rights reserved.
+   </footer>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="UTF-8">
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Looping in Ruby vs. Looping in JavaScript &middot; Anna MacDonald
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/atom+xml" title="Anna MacDonald" href="/atom.xml">
+</head>
+
+
+  <body>
+
+    <div class="container content">
+      <header class="masthead">
+        <h3 class="masthead-title">
+          <a href="/" title="Home">Anna MacDonald</a>
+          <small></small>
+        </h3>
+      </header>
+
+      <main>
+        <article class="post">
+  <h1 class="post-title">Looping in Ruby vs. Looping in JavaScript</h1>
+  <time datetime="2015-02-04T00:00:00-08:00" class="page-date">04 Feb 2015</time>
+  <p>After learning Ruby for about a month, my Dev Bootcamp curriculum has shifted languages to JavaScript this week. The fundamentals of JavaScript have been much easier to digest with my existing knowledge of basic Ruby, but there are some notable differences between the two languages. In this post, I will be focusing on the differences between looping in Ruby and JavaScript, since looping is a fundamental part of getting anything to work in a given program.</p>
+
+<p>Looping in Ruby can be achieved in several ways: while loops, until loops, for loops, and using methods such as #times, #each, and #each_with_index. Looping in JavaScript is more limited than in Ruby, with the only looping options being while loops and for loops.</p>
+
+<p>While loops are the more basic form of iterating through a set of elements in both Ruby and JavaScript. They generally start with a condition such as, while x &lt; 5, and then are directed to execute a certain block of code while the condition is returned true. Once the condition is no longer true, the code stops executing, and the loop breaks. For loops are generally thought of as a more elegant solution to looping, and are formatted by setting a statement to be executed before the loop starts, defining a condition for running the loop, and including the code to be executed each time the loop occurs. Here is an example of a for loop since they are slightly more complicated to explain than while loops:</p>
+
+<pre><code>var x = 1;
+var i;
+  for (i = 0; i &lt; 10; i++) {
+  x += 2;
+}
+</code></pre>
+
+<p>This example loop will create an output of 21 because everytime the counter(Variable ‘i’) - which starts at 0 - increases by one, 2 will be added to ‘x’ until the counter is less than 10.</p>
+
+<p>An important JavaScript loop that is similar to the for loop is the for…in loop which is used to iterate through the properties of an object - which are analogous to the values in a Ruby hash. Here is an example of a JavaScript for…in loop:</p>
+
+<pre><code>var arr = [], i = 0;
+var myObject = {a: 1, b:2, c:3};
+  for (arr[i++] in myObject);
+  arr;
+</code></pre>
+
+<p>In this example, we first created a variable containing an empty array (‘arr’), and set the counter, ‘i’, to zero. Then we created a JavaScript object with the properties ‘a’, ‘b’, and ‘c’, and their corresponding values, ‘1’, ‘2’, and ‘3’. We then used a for…in loop to say “for property arr at position i++ - incremented index - in myObject” which iterated through the corresponding property indices in myObject, assigning them to the index positions in arr, which led to the return result: [‘a’, ‘b’, ‘c’].</p>
+
+<p>I apologize if any of these explanations are incorrect in any way, as I am brand new to JavaScript and still a beginner in Ruby, so there are bound to be a few issues. I hope this gave a good comparison of simple loops in Ruby and JavaScript, and tweet me at @annamhairi if you have any questions! Happy coding!</p>
+
+</article>
+
+<aside class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="//2015/02/22/questions/">
+            Asking Good Questions
+            <small><time datetime="2015-02-22T00:00:00-08:00">22 Feb 2015</time></small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="//2015/02/05/values/">
+            Values
+            <small><time datetime="2015-02-05T00:00:00-08:00">05 Feb 2015</time></small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="//2015/02/01/stereotype-threat/">
+            Stereotype Threat
+            <small><time datetime="2015-02-01T00:00:00-08:00">01 Feb 2015</time></small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</aside>
+
+      </main>
+
+      <footer class="footer">
+        <small>
+          &copy; <time datetime="2015-02-22T11:15:15-08:00">2015</time>. All rights reserved.
+        </small>
+      </footer>
+    </div>
+
+  </body>
+</html>

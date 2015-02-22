@@ -1,0 +1,19 @@
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Anna MacDonald
+tagline:
+url:              https://annamhairi.github.io
+paginate:         1
+baseurl:          /
+author:
+  name:           Anna MacDonald
+  url:            https://twitter.com/annamhairi
+  email:          anna.m.macdonald@gmail.com
+
+# # Custom vars
+# version:
+# github:
+#   repo:

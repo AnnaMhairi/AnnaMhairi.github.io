@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Anna MacDonald</title>
+ <link href="https://annamhairi.github.io/atom.xml" rel="self"/>
+ <link href="https://annamhairi.github.io/"/>
+ <updated>2015-02-22T11:15:15-08:00</updated>
+ <id>https://annamhairi.github.io</id>
+ <author>
+   <name>Anna MacDonald</name>
+   <email>anna.m.macdonald@gmail.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Asking Good Questions</title>
+   <link href="https://annamhairi.github.io//2015/02/22/questions/"/>
+   <updated>2015-02-22T00:00:00-08:00</updated>
+   <id>https://annamhairi.github.io/2015/02/22/questions</id>
+   <content type="html">&lt;p&gt;I am not a big question asker. This is definitely an area I need to improve in, since the programming community seems to be very question-oriented. I think most of the time, I would rather struggle with the answer myself until I have absolutely no possible solution, and then research the exact problem I am having - which is usually answered somewhere on Stack Overflow. So, although I do not have a lot of direct experience writing good questions, I feel able to quickly recognize good or bad questions due to spending a lot of time researching very specific solutions to questions that I would like answered.&lt;/p&gt;
+
+&lt;p&gt;I think specificity is the cornerstone of asking a good question, and most importantly, specificity in the title. A lot of the time I will research titles very quickly until I find one matching my exact query. Noting the language the question is referring to in the title is also crucial. As for the body of the question, as a newcomer to programming, I find the most useful answers to have a quick excerpt regarding the issue they are having and then a simple code snippet that does not require too much external information or references. Sometimes while researching on Stack Overflow, I have been overwhelemd by the code excerpts that people post in their question, and end up leaving to another page simply because I think the question involves a more complex topic than the one I am having problems with. This may be unrelatable since I am new to programming, but I think that good questions should avoid being overly complex or lofty because that makes them easier to answer (if they are still specific enough).&lt;/p&gt;
+
+&lt;p&gt;Well, that’s it for my musings on how to write a good question (from a non question-asker’s perspective). Feel free to tweet at me (@annamhairi) if you have any feedback or responses! Happy question asking!&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Values</title>
+   <link href="https://annamhairi.github.io//2015/02/05/values/"/>
+   <updated>2015-02-05T00:00:00-08:00</updated>
+   <id>https://annamhairi.github.io/2015/02/05/values</id>
+   <content type="html">&lt;p&gt;Here are a list of values that come to mind at times in my life where I’ve been the happiest in some form or another: Accomplishment, Achievement, Affection, Ambition, Close relationships, Compassion, Competence, Confidence, Creativity, Credibility, Decisiveness, Enthusiasm, Excitement, Friendships, Growth, Helping others, Honesty, Inner harmony, Insight, Inspiration, Location, Meaningful work, Music, Nature, Peace, Personal development, Reputation, Romance, Serenity, Stability, Tranquility, Will-power, Wisdom. In general, I try to live up to these values (4/5) because they are standards that I wish to be held to and wish for others to reciprocate (for those actionable values).&lt;/p&gt;
+
+&lt;p&gt;One value that is very important to me is inspiration. I believe inspiration is an extremely important value for a person to possess, and I think it is a fairly difficult one to hold on to in times of stress or despair. I have struggled with feeling inspired a lot of my life, so always really treasure moments when I feel inspiration, and look for ways I can inspire other people. Finally, I think that inspiration is closely linked to motivation - which has also been a tough value for me to hold on to - and motivation is so important for success, but more importantly, overall happiness on a day-to-day level.&lt;/p&gt;
+
+&lt;p&gt;The last topic that someone asked for my advice on was regarding whether they should pursue a bootcamp like DBC. This topic is related to meaningful work, which I think is extremely important, and given my knowledge of my experience so far, I honestly explained all that I could about the various programs and referred them to Code Academy since I have found it the most enjoyable learning resource outside of the DBC materials. I was hoping to enable them to make an informed decision about whether they would enjoy a programming bootcamp.&lt;/p&gt;
+
+&lt;p&gt;I am happy when I think about my values, although sometimes I wish I cared more about things such as prestige and eventual income mainly because I think it may help with my motivation. I think my values of insight and compassion may help mediate stereotype threat if I feel it because I could understand what is making a person act a certain way that I recognize as stereotype threat.&lt;/p&gt;
+
+&lt;p&gt;I think the value that I have to work on the most to be successful at DBC is inspiration because I know that if I am able to think of an inspiring project or observe inspiring people in the programming world, that it would help me become more motivated. Since I am very self-aware of moments when I feel lacking in motivation and inspiration, I will need to be able to snap myself out of it and either let it pass or search for sources of inspiration in the community.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Looping in Ruby vs. Looping in JavaScript</title>
+   <link href="https://annamhairi.github.io//2015/02/04/javascript/"/>
+   <updated>2015-02-04T00:00:00-08:00</updated>
+   <id>https://annamhairi.github.io/2015/02/04/javascript</id>
+   <content type="html">&lt;p&gt;After learning Ruby for about a month, my Dev Bootcamp curriculum has shifted languages to JavaScript this week. The fundamentals of JavaScript have been much easier to digest with my existing knowledge of basic Ruby, but there are some notable differences between the two languages. In this post, I will be focusing on the differences between looping in Ruby and JavaScript, since looping is a fundamental part of getting anything to work in a given program.&lt;/p&gt;
+
+&lt;p&gt;Looping in Ruby can be achieved in several ways: while loops, until loops, for loops, and using methods such as #times, #each, and #each_with_index. Looping in JavaScript is more limited than in Ruby, with the only looping options being while loops and for loops.&lt;/p&gt;
+
+&lt;p&gt;While loops are the more basic form of iterating through a set of elements in both Ruby and JavaScript. They generally start with a condition such as, while x &amp;lt; 5, and then are directed to execute a certain block of code while the condition is returned true. Once the condition is no longer true, the code stops executing, and the loop breaks. For loops are generally thought of as a more elegant solution to looping, and are formatted by setting a statement to be executed before the loop starts, defining a condition for running the loop, and including the code to be executed each time the loop occurs. Here is an example of a for loop since they are slightly more complicated to explain than while loops:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var x = 1;
+var i;
+  for (i = 0; i &amp;lt; 10; i++) {
+  x += 2;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This example loop will create an output of 21 because everytime the counter(Variable ‘i’) - which starts at 0 - increases by one, 2 will be added to ‘x’ until the counter is less than 10.&lt;/p&gt;
+
+&lt;p&gt;An important JavaScript loop that is similar to the for loop is the for…in loop which is used to iterate through the properties of an object - which are analogous to the values in a Ruby hash. Here is an example of a JavaScript for…in loop:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var arr = [], i = 0;
+var myObject = {a: 1, b:2, c:3};
+  for (arr[i++] in myObject);
+  arr;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In this example, we first created a variable containing an empty array (‘arr’), and set the counter, ‘i’, to zero. Then we created a JavaScript object with the properties ‘a’, ‘b’, and ‘c’, and their corresponding values, ‘1’, ‘2’, and ‘3’. We then used a for…in loop to say “for property arr at position i++ - incremented index - in myObject” which iterated through the corresponding property indices in myObject, assigning them to the index positions in arr, which led to the return result: [‘a’, ‘b’, ‘c’].&lt;/p&gt;
+
+&lt;p&gt;I apologize if any of these explanations are incorrect in any way, as I am brand new to JavaScript and still a beginner in Ruby, so there are bound to be a few issues. I hope this gave a good comparison of simple loops in Ruby and JavaScript, and tweet me at @annamhairi if you have any questions! Happy coding!&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Stereotype Threat</title>
+   <link href="https://annamhairi.github.io//2015/02/01/stereotype-threat/"/>
+   <updated>2015-02-01T00:00:00-08:00</updated>
+   <id>https://annamhairi.github.io/2015/02/01/stereotype-threat</id>
+   <content type="html">&lt;p&gt;My experience transitioning into becoming a programmer has been my biggest exposure to stereotype threat so far because I am a woman who comes from a non-technical background and has had bad experiences with math in the past. Although most of these feelings have been self-imposed, I have felt more embarrassed than usual in certain pairing sessions with men if I can’t come up with the correct solution, and feel a lot of the time like I have to prove myself more to be considered at the same level as a man.&lt;/p&gt;
+
+&lt;p&gt;I have found so far that the best way to combat these feelings when they come up is by focusing on acting professional and letting go of my ego or focus on ‘self’ and trying to hope that my partner is doing the same. I have also started to really appreciate partners who are more knowledgeable than I am - even if they are men - because they can offer a great learning experience and help me improve. Looking at this type of an experience as helpful instead of threatening or condescending is a very useful point of view shift.&lt;/p&gt;
+
+&lt;p&gt;If I sense that somebody else in experiencing stereotype threat, I will try to be as neutral and professional as possible because I think that type of attitude always helps people feel more comfortable and like they are taken more seriously. If I ever have to explain a concept to a pair that they don’t understand, I will focus on checking along the way to make sure that I am not sounding condescending or explaining something that they already know. Answering this question in the public setting is much more difficult, but I try to treat everybody equally and foster a welcoming vibe that doesn’t discriminate, so I think that is the best way I can help peope in general feel more comfortable.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Pair Coding and Feedback</title>
+   <link href="https://annamhairi.github.io//2015/01/25/feedback/"/>
+   <updated>2015-01-25T00:00:00-08:00</updated>
+   <id>https://annamhairi.github.io/2015/01/25/feedback</id>
+   <content type="html">&lt;p&gt;Pair coding has been an interesting experience in DBC so far. I am definitely more of a private, individual learner, so it has been pretty challenging for me to work on solving challenges with other people. I also am better at formulating my thoughts when I write them down, so that has also been tough since I am not always ‘driving’ while pair coding. I think it is very rewarding to solve a challenge with your pair when your ideas come together; however, there have also been many moments of frustration when neither pair can come up with any sort of solution to the current problem. I have also experienced some frustration when I am working with someone more advanced at a certain topic, and I am not understanding the problem.&lt;/p&gt;
+
+&lt;p&gt;It has felt pretty good to read my feedback, since it has all been positive so far. I don’t think any of it has been very helpful yet because I haven’t received a lot of constructive criticism - but I think that will come as I pair more. I have learned something from writing my feedback to other people, though, because I have noticed that I always stress that we should review the challenge we will be working on prior to pairing, and that is my fault as well as my pair’s. The most challenging thing for me when writing feedback for others has been coming up with feedback that is both specific and actionable. A lot of the time, I am still concerned with not offending anyone, since we are all still struggling and learning.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Enumerable#map</title>
+   <link href="https://annamhairi.github.io//2015/01/18/enumerable-methods/"/>
+   <updated>2015-01-18T00:00:00-08:00</updated>
+   <id>https://annamhairi.github.io/2015/01/18/enumerable-methods</id>
+   <content type="html">&lt;p&gt;Enumerable is an extremely useful Ruby module, or library of methods, that can be used across multiple classes - such as the Array class or Hash class. The Enumerable module enables programmers to cycle through various elements in collection objects like arrays and hashes, and perform various actions to each object within the collection. These methods can produce much simpler versions of other looping options, and can also perform more specific repeated tasks in an elegant way.&lt;/p&gt;
+
+&lt;p&gt;The Enumerable method I would like to focus on in this post is Enumerable#map. To preface my explanation of this method, here is a simple example of how it works:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;arr = [1,3,5] &amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;arr.map { |n| n * n }&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;
+returns the new array [1, 9, 25]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;The enumerable map method, as seen above, enables the creation of a new array which has been modified in a way specified by the programmer. It can either be thought of as performing a certain action and collecting the results, as in the similar #collect method, or as “re-mapping” the original object (&lt;/td&gt;
+      &lt;td&gt;n&lt;/td&gt;
+      &lt;td&gt;in our example), and producing a new array of changed versions of the original object. The new array is filled with whatever is returned by the block each time it runs - for each object in the collection object.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;This method and the concept of enumerators can be intimidating at first, but the methods in the Enumerable module are fairly intuitive and extremely useful once you realize that they are simply a form of going through each element in a collection object and performing a certain task to each object.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Cyber Security</title>
+   <link href="https://annamhairi.github.io//2015/01/18/cyber-security/"/>
+   <updated>2015-01-18T00:00:00-08:00</updated>
+   <id>https://annamhairi.github.io/2015/01/18/cyber-security</id>
+   <content type="html">&lt;p&gt;I chose to explore issues regarding cyber security in this post due to the recent incident involving Sony. In late November, Sony’s entire computer system was attacked by a group of hackers - ‘GOP’, or Guardians of Peace. This attack led to widespread dismay among the company, as classified information such as internal emails, future plans, and employee information had been compromised and was being leaked. Although cyber attacks have been a pressing security issue in the political sphere since the late 1980’s - when the first recognised worm - ‘The Morris worm’ - spread around computers in the United States, slowing down computers until they were inoperable, the attack on the Sony computer network put the issue largely on the mainstream’s radar.&lt;/p&gt;
+
+&lt;p&gt;As sensitive personal information is increasingly proliferated into the open through widely-used web and mobile applications, cyber security is a huge issue that faces the tech world today. This is especially true since many apps are crossing over into different areas, for example, from social media to finance - such as Snapchat’s payment feature - creating many applications that have many different types of sensitive information all in one place.&lt;/p&gt;
+
+&lt;p&gt;In a recent meeting where British Prime Minister David Cameron and President Obama discussed the issue of cybersecurity, David Cameron went as far as to suggest outlawing certain forms of encryption such as that found in the most widely used form of remote communication - iMessage (http://www.theguardian.com/commentisfree/2015/jan/17/cameron-obama-ban-encryption-improve-cybersecurity). The results of this could be potentially catastrophic, and this type of a statement by a prominent country’s leader just shows how dire the cybersecurity issue is for national security.&lt;/p&gt;
+
+&lt;p&gt;I do not have solutions as to the issue of cybersecurity, or even suggestions of how to prevent future attacks; however, I do believe that marching forward into the world of creation and development in tech should be done cautiously and with the imminent threats of cyber attacks in mind. As seen with the Sony incident, these attacks have a low likelihood of being ‘harmless’, given how much personal information about each and every one of us is already out in the open online.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Thinking Style</title>
+   <link href="https://annamhairi.github.io//2015/01/11/thinking-style/"/>
+   <updated>2015-01-11T00:00:00-08:00</updated>
+   <id>https://annamhairi.github.io/2015/01/11/thinking-style</id>
+   <content type="html">&lt;p&gt;My thinking style according to the ‘Gregorc Thinking Style’ theory is ‘Abstract Random’ which, although fairly accurate, I do not think fully encompasses my thinking style. I am definitely a listener and believe that establishing healthy relationships and connections with others are the best ways to work efficiently with other people; however, I would describe myself as an introvert which contradicts the explanation that I would learn best in a setting with group activities. I’m not really sure how I can apply what I have read about my thinking style to my ability to learn because of this, although I do really appreciate the chance to work in a personalized environment which could be helpful knowledge to have in mind throughout my learning process.&lt;/p&gt;
+
+&lt;p&gt;My biggest struggles so far in Phase 0 have been - 1. trying not to beat myself up for forgetting Ruby that I have already learned in the past and 2. making myself motivated to do the written exercises, which although I always find ultimately rewarding, I often feel resistance since they are not always direct learning opportunities. I think my first struggle is related to the way I learn because sometimes I have a difficult time forcing myself to absorb material in a way that will ensure that I remember it in the future, or will be able to apply it, and instead, use more trial-and-error methods that don’t involve a lot of review. Sometimes I think this struggle is related to not knowing how to properly solidify new information in my brain more than feeling too lazy to do this. I think a good solution to this issue will be to create a list of possible ways to compartmentalize information immediately after I learn it, and then figure out which one works best. I am less concerned about the second struggle because I am very self-aware, and after failing in various areas of my life due to lack of motivation, I have developed a sense of when I need to remotivate myself in some way.&lt;/p&gt;
+
+&lt;p&gt;I think one great way to broaden my thinking and learning styles will be to do more activities pulling from other thinking styles to see if any other techniques could potentially work for me. I believe recently I have come pretty far in regards to growth vs. fixed mindset, and try to remind myself of the benefits of focusing on having a growth mindset if I ever feel discouraged throughout the program. I think this will get more difficult in stressful times during the intensive part of the bootcamp, so I will have to constantly remind myself that nothing is impossible in the field of learning and that learning is for the most part, proportionate to the effort you put in, and not an inherent level of intellect.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>CSS Positioning</title>
+   <link href="https://annamhairi.github.io//2015/01/04/css-design/"/>
+   <updated>2015-01-04T00:00:00-08:00</updated>
+   <id>https://annamhairi.github.io/2015/01/04/css-design</id>
+   <content type="html">&lt;p&gt;The concepts of relative, absolute, and fixed positioning using CSS can be extremely confusing to a newcomer to web design. I have recently started learning basic HTML and CSS, and have definitely struggled the most with the topic of positioning elements on the page. I have resorted largely to a process of trial and error, but actually researching the specific ways to position elements is a much more time-efficient and less frustrating method. In this post, I will discuss relative, absolute, and fixed postioning in CSS since these concepts were the trickiest for me to get my head around at first.&lt;/p&gt;
+
+&lt;p&gt;CSS, or Cascading Style Sheets, is a language used to design and personalize HTML (HyperText Markup Lanaguage) documents. It is largely used in a separate document from the HTML document it is styling, and is linked to that document in the header. CSS works by singling out elements on a page, and then applying specified designs to that element - or group of elements. In order to explain the concepts of relative, absolute, and fixed positioning in CSS, it is first important to understand that each element on a webpage - established in the HTML document - is a separate entity, or block, composed of pixels - the dots that make up the picture on a display screen. Using this type of mental framework to view an HTML document, or webpage, through makes it much easier to figure out how positioning works in HTML and CSS.&lt;/p&gt;
+
+&lt;p&gt;For newcomers to CSS, here is a brief explanation of the syntax used in this language:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;          selector {
+              property: value;
+              another_property: another_value;
+              etc.
+              etc.
+          }
+
+          another_selector {
+              property: value;
+              etc.
+          }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The “selectors” used above are taken directly from the HTML document based upon which selector it is that you would like to stylize in your CSS document. Once you have defined the selector that you are modifying, you use “properties” in order to define which category you would like to get your styling elements from. For the purpose of this post, the property we would be looking at is “position”. The final element, “value”, is the most specific of all the definitions we have reviewed: Value covers the exact way you would like to change the selector within the category of the property. In our case, the values would be ‘absolute’, ‘relative’, or ‘fixed’.&lt;/p&gt;
+
+&lt;p&gt;To put it all together, if we wanted to set a paragraph’s (represented by ‘p’ in HTML) postioning in an HTML document, we would use this language in our CSS document:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;        p {
+        position: absolute;
+        OR
+        position: relative;
+        OR
+        position: fixed;
+      }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;So now that we have established the basis of HTML and CSS syntax, I will clarify what absolute, relative, and fixed positioning actually mean for an object on your page. Absolute positioning is the most extreme value of the position property, or category. Using absolute positioning, you can decide exactly where you would like to place and object on your webpage. If an object is positioned using absolute positioning, it’s positioning will not be affected by other objects on the page. Relative positioning is more confusing since its definition is slightly counterintuitive. Setting an object’s position property to the value relative means that the object will move in a manner that’s relative to itself. Relative positioning is actually null unless other positioning attributes are also changed. For example, if the property ‘left’ was set to the value of 100px, the block in question would shift to the right 100px (from where it would naturally be in the document). The final positioning value, fixed, is used when you want to set an object in a certain position that will stay put even if you scroll up, down, left, or right. Fixed positioning is often used for elements such as scroll bars or headers that the designer planned for the user to see regardless of how far they scroll down the page.&lt;/p&gt;
+
+&lt;p&gt;Well, that was a lot of information for one post, and is still far from being a comprehensive guide to this topic in CSS, but hopefully it was a helpful primer for a beginner! Here is a link to a great (free!) place to practice these concepts in-depth: http://www.codecademy.com/en/tracks/web – Good luck!&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Stereotype Threat</title>
+   <link href="https://annamhairi.github.io//2015/01/01/oop-concepts/"/>
+   <updated>2015-01-01T00:00:00-08:00</updated>
+   <id>https://annamhairi.github.io/2015/01/01/oop-concepts</id>
+   <content type="html">&lt;p&gt;Modules and Classes are very similar Ruby constructs, but each have their own unique benefits. Modules are often described as the larger, more basic constructs that act similarly to a superclass (a class that another class inherits information from in the class hierarchy). Classes, on the other hand, have the ability to create instances of themselves (Class objects or instances), so are generally quite complex and more specific constructs.&lt;/p&gt;
+
+&lt;p&gt;Modules are great for design purposes because they “encourage modular design: program design that breaks large components into smaller ones and lets you mix and match object behaviors” (Black, 287). A limitation of modules is that they are not used to create objects directly - instead, they are largely mixed into a class or multiple class so that the methods included in the module can be used in the class object(s).&lt;/p&gt;
+
+&lt;p&gt;Ruby classes are more powerful constructs in the sense that they are able to create class objects or instances, but they still are lower in the inheritance ranking than modules - with the module acting like the superclass of any given class. This is a helpful setup because modules are able to be included in multiple classes (using the ‘include’ method), whereas classes can only inherit from one given superclass at any time. This is helpful for separating classes adequately specifically, while still allowing for the easy assignment of various methods to multiple classes using modules.&lt;/p&gt;
+
+&lt;p&gt;Classes and modules can seem very similar to a newcomer to Ruby, but they are actually useful in completley different ways. A solid understanding of classes and modules is crucial to becoming a programmer who follows the best design practices.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Introduction to Git</title>
+   <link href="https://annamhairi.github.io//2014/12/10/intro-to-git/"/>
+   <updated>2014-12-10T00:00:00-08:00</updated>
+   <id>https://annamhairi.github.io/2014/12/10/intro-to-git</id>
+   <content type="html">&lt;p&gt;In this post, I will be recapping some of my learning highlights after completing the majority of Phase 0, Week 1 at Dev Bootcamp. This week, we were introduced to concepts such as version control, git (a version control software - more on that later), and the social code-sharing platform, GitHub. I will start with a brief definition of each of these topics and then explain what they do and why they are so important and useful to programmers.&lt;/p&gt;
+
+&lt;p&gt;Version control is a form of software that enables the user to keep track of earlier versions of their code or project in case something goes wrong in future editions or a bug comes up that requires debugging. The benefits of version control are that the user, along with other collaborators on the project, are able to look back in time at other previous versions of their project if they decide they don’t like an aspect of the current version they are working on, or if, after saving the most recent version, they discover that it caused some sort of error to occur in the program. This prevents the developers from having to go back through the entirety of their code to figure out exactly where they went wrong, since they will have saved previous versions that were clear of errors when they saved them. Next, I will discuss one of the most popular version control softwares, git, and the popular site where git can be posted for developers to collaborate or comment on each other’s code, GitHub.&lt;/p&gt;
+
+&lt;p&gt;Git is a version control software that a developer installs locally - on their computer - that they can access through the main device used to tell a computer what to do - the command-line interface (in a Mac, the CLI is Terminal). Git can be set to keep track of changes a user makes to their projects in text editors such as Sublime Text. When a user wishes to institute a change and ‘new version’ of their project, they simply add and commit the change in git (Committing a change means that the change has been “saved” as a new version). Using the command “git log”, the developer can review past changes they have made which can come in handy if a problem comes up in the program at some point. The final topic I will touch on in today’s post is the social code-sharing platform, GitHub.&lt;/p&gt;
+
+&lt;p&gt;GitHub is a website where users can upload their code either directly, or by “pushing” or making pull requests to send their code from their terminal using the software git (discussed above) in order to collaborate with other people or have people review and comment on their projects. GitHub is a useful website because it allows collaborators to work on a project remotely, from different locations, and then push or pull their changes to github.com so that their changes or requests for changes are viewable by other people working on the project. GitHub also promotes the idea of Open Source code and code-sharing which endorses creativity and increased learning in the coding community.&lt;/p&gt;
+
+&lt;p&gt;Well, I hope that I did not butcher any of these topics too much, and that someone can find my explanations helpful or useful in some way! Wish me luck for the next week of my coding adventure!&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Ruby Arrays and Hashes</title>
+   <link href="https://annamhairi.github.io//2014/11/01/arrays-hashes/"/>
+   <updated>2014-11-01T00:00:00-07:00</updated>
+   <id>https://annamhairi.github.io/2014/11/01/arrays-hashes</id>
+   <content type="html">&lt;p&gt;Ruby is an object-oriented language, which means that it is composed of objects that interact with each other. Ruby objects can be anything from integers to characters, or hashes and arrays containing multiple other objects. In this post, I will be focusing on hashes and arrays, otherwise known as ‘container objects’ due to the fact that  both of these objects act as collections of objects, sort of like storage units for other objects.&lt;/p&gt;
+
+&lt;p&gt;Arrays are a type of Ruby container object which inherently include a consecutive numerical index. Any object can be stored in an array - even other arrays! The array’s index is used to reference and access certain elements in the array, without having to rename the referenced variable directly. This index starts at array[0] (the syntax for array indices being array[int_position)]) - representing the first object in the array - and the last object in the array can be found using array[-1]. The array’s position index can be changed by adding or removing an object from the array, but the array’s index is only as long as the length of the current array.&lt;/p&gt;
+
+&lt;p&gt;Hashes are very similar to arrays in the sense that they are also container objects which are used to store and access other objects; however, hashes store pairs of objects in the format of a declared key and a value. In other words, the numbered index in arrays are replaced by specifically named keys in a hash - which refer to other declared values. Values can be received in a program by referencing the value’s specific key.&lt;/p&gt;
+
+&lt;p&gt;Arrays and hashes are comparable in the sense that they both use keys to access specific variables: the only difference being that array keys are inherently set to consecutive integers, whereas hash values are specifically assigned keys. Arrays are better suited for use as strictly storage units for related information, or information that you wish to access or iterate through all together. Hashes are great for more relational purposes, or when you have a certain value , or list of values, that you want specifically to refer to other values.&lt;/p&gt;
+
+&lt;p&gt;Finally, hashes and arrays have use Ruby syntax:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    Array = [int, [other_array], &quot;string&quot;]
+
+
+    Hash = {&quot;key&quot; =&amp;gt; &quot;value&quot;, &quot;other_key&quot; =&amp;gt; &quot;other_value&quot;}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Good luck with this topic! Hashes are still one of the more confusing topics I have come across in Ruby so far.&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>

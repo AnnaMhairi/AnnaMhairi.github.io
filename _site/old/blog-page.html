@@ -1,0 +1,181 @@
+
+
+<!DOCTYPE html>
+<head>
+  <title>Blog</title>
+  <link rel="stylesheet" type="text/css" href="stylesheets/blog-stylesheet.css">
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro|Amatic+SC|Raleway' rel='stylesheet' type='text/css'>
+</head>
+
+<main>
+  <div>
+<h2 class="header">Anna's Blog</h2>
+  </div>
+<div class="about">
+ <img src="https://trello-avatars.s3.amazonaws.com/884f6dd879ddc1665c10a3665394930e/170.png">
+  <div>Anna MacDonald is an aspiring web developer attending Dev Bootcamp in San Francisco.</div></div>
+  <div class="post">
+
+  <h3>Cyber Security</h3>
+  <h4>January 18, 2015</h4>
+      <p>
+I chose to explore issues regarding cyber security in this post due to the recent incident involving Sony. In late November, Sony's entire computer system was attacked by a group of hackers - 'GOP', or Guardians of Peace. This attack led to widespread dismay among the company, as classified information such as internal emails, future plans, and employee information had been compromised and was being leaked. Although cyber attacks have been a pressing security issue in the political sphere since the late 1980's - when the first recognised worm - 'The Morris worm' - spread around computers in the United States, slowing down computers until they were inoperable, the attack on the Sony computer network put the issue largely on the mainstream's radar.
+</p>
+<p>
+  As sensitive personal information is increasingly proliferated into the open through widely-used web and mobile applications, cyber security is a huge issue that faces the tech world today. This is especially true since many apps are crossing over into different areas, for example, from social media to finance - such as Snapchat's payment feature - creating many applications that have many different types of sensitive information all in one place.
+</p>
+<p>
+  In a recent meeting where British Prime Minister David Cameron and President Obama discussed the issue of cybersecurity, David Cameron went as far as to suggest outlawing certain forms of encryption such as that found in the most widely used form of remote communication - iMessage (http://www.theguardian.com/commentisfree/2015/jan/17/cameron-obama-ban-encryption-improve-cybersecurity). The results of this could be potentially catastrophic, and this type of a statement by a prominent country's leader just shows how dire the cybersecurity issue is for national security.
+</p>
+<p>
+  I do not have solutions as to the issue of cybersecurity, or even suggestions of how to prevent future attacks; however, I do believe that marching forward into the world of creation and development in tech should be done cautiously and with the imminent threats of cyber attacks in mind. As seen with the Sony incident, these attacks have a low likelihood of being 'harmless', given how much personal information about each and every one of us is already out in the open online.
+  </p>
+</div>
+<div class="post">
+
+  <h3>Enumerable#map</h3>
+  <h4>January 18, 2015</h4>
+<p>
+Enumerable is an extremely useful Ruby module, or library of methods, that can be used across multiple classes - such as the Array class or Hash class. The Enumerable module enables programmers to cycle through various elements in collection objects like arrays and hashes, and perform various actions to each object within the collection. These methods can produce much simpler versions of other looping options, and can also perform more specific repeated tasks in an elegant way.
+</p>
+<p>
+  The Enumerable method I would like to focus on in this post is Enumerable#map. To preface my explanation of this method, here is a simple example of how it works: </p>
+  <p>
+    example: arr = [1,3,5] </p><p>arr.map { |n| n * n }</p><p>
+returns the new array [1, 9, 25] </p>
+<p>
+Enumerable#map, as seen above, enables the creation of a new array which has been modified in a way specified by the programmer. It can either be thought of as performing a certain action and collecting the results, as in the similar #collect method, or as "re-mapping" the original object (|n| in our example), and producing a new array of changed versions of the original object. The new array is filled with whatever is returned by the block each time it runs - for each object in the collection object.
+</p>
+This method and the concept of enumerators can be intimidating at first, but the methods in the Enumerable module are fairly intuitive and extremely useful once you realize that they are simply a form of going through each element in a collection object and performing a certain task to each object.
+</p>
+</div>
+<div class="post">
+
+  <h3>Thinking Style</h3>
+  <h4>January 11, 2015</h4>
+      <p>
+        My thinking style according to the 'Gregorc Thinking Style' theory is 'Abstract Random' which, although fairly accurate, I do not think fully encompasses my thinking style. I am definitely a listener and believe that establishing healthy relationships and connections with others are the best ways to work efficiently with other people; however, I would describe myself as an introvert which contradicts the explanation that I would learn best in a setting with group activities. I'm not really sure how I can apply what I have read about my thinking style to my ability to learn because of this, although I do really appreciate the chance to work in a personalized environment which could be helpful knowledge to have in mind throughout my learning process.
+        </p>
+        <p>
+          My biggest struggles so far in Phase 0 have been - 1. trying not to beat myself up for forgetting Ruby that I have already learned in the past and 2. making myself motivated to do the written exercises, which although I always find ultimately rewarding, I often feel resistance since they are not always direct learning opportunities. I think my first struggle is related to the way I learn because sometimes I have a difficult time forcing myself to absorb material in a way that will ensure that I remember it in the future, or will be able to apply it, and instead, use more trial-and-error methods that don't involve a lot of review. Sometimes I think this struggle is related to not knowing how to properly solidify new information in my brain more than feeling too lazy to do this. I think a good solution to this issue will be to create a list of possible ways to compartmentalize information immediately after I learn it, and then figure out which one works best. I am less concerned about the second struggle because I am very self-aware, and after failing in various areas of my life due to lack of motivation, I have developed a sense of when I need to remotivate myself in some way.
+        </p>
+        <p>
+          I think one great way to broaden my thinking and learning styles will be to do more activities pulling from other thinking styles to see if any other techniques could potentially work for me. I believe recently I have come pretty far in regards to growth vs. fixed mindset, and try to remind myself of the benefits of focusing on having a growth mindset if I ever feel discouraged throughout the program. I think this will get more difficult in stressful times during the intensive part of the bootcamp, so I will have to constantly remind myself that nothing is impossible in the field of learning and that learning is for the most part, proportionate to the effort you put in, and not an inherent level of intellect.
+        </p>
+
+
+  </div>
+<div class="post">
+
+  <h3>Arrays and Hashes</h3>
+  <h4>January 11, 2015</h4>
+      <p>
+        Ruby is an object-oriented language, which means that it is composed of objects that interact with each other. Ruby objects can be anything from integers to characters, or hashes and arrays containing multiple other objects. In this post, I will be focusing on hashes and arrays, otherwise known as 'container objects' due to the fact that  both of these objects act as collections of objects, sort of like storage units for other objects.
+      </p>
+      <p>
+        Arrays are a type of Ruby container object which inherently include a consecutive numerical index. Any object can be stored in an array - even other arrays! The array's index is used to reference and access certain elements in the array, without having to rename the referenced variable directly. This index starts at array[0] (the syntax for array indices being array[int_position)]) - representing the first object in the array - and the last object in the array can be found using array[-1]. The array's position index can be changed by adding or removing an object from the array, but the array's index is only as long as the length of the current array.
+      </p>
+      <p>
+        Hashes are very similar to arrays in the sense that they are also container objects which are used to store and access other objects; however, hashes store pairs of objects in the format of a declared key and a value. In other words, the numbered index in arrays are replaced by specifically named keys in a hash - which refer to other declared values. Values can be received in a program by referencing the value's specific key.
+      </p>
+      <p>
+        Arrays and hashes are comparable in the sense that they both use keys to access specific variables: the only difference being that array keys are inherently set to consecutive integers, whereas hash values are specifically assigned keys. Arrays are better suited for use as strictly storage units for related information, or information that you wish to access or iterate through all together. Hashes are great for more relational purposes, or when you have a certain value , or list of values, that you want specifically to refer to other values.
+      </p>
+      <p>
+        Finally, hashes and arrays have use Ruby syntax:
+      </p>
+      <p>
+        Array = [int, [other_array], "string"]
+      </p>
+      <p>
+        Hash = {"key" => "value", "other_key" => "other_value"}
+      </p>
+      <p>
+        Good luck with this topic! Hashes are still one of the more confusing topics I have come across in Ruby so far.
+      </p>
+    </div>
+
+ <div class="post">
+    <h3>Relative, Absolute, and Fixed Positioning: CSS</h3>
+      <h4>January 4, 2015</h4>
+        <p>
+        The concepts of relative, absolute, and fixed positioning using CSS can be extremely confusing to a newcomer to web design. I have recently started learning basic HTML and CSS, and have definitely struggled the most with the topic of positioning elements on the page. I have resorted largely to a process of trial and error, but actually researching the specific ways to position elements is a much more time-efficient and less frustrating method. In this post, I will discuss relative, absolute, and fixed postioning in CSS since these concepts were the trickiest for me to get my head around at first.
+        </p>
+        <p>
+        CSS, or Cascading Style Sheets, is a language used to design and personalize HTML (HyperText Markup Lanaguage) documents. It is largely used in a separate document from the HTML document it is styling, and is linked to that document in the header. CSS works by singling out elements on a page, and then applying specified designs to that element - or group of elements. In order to explain the concepts of relative, absolute, and fixed positioning in CSS, it is first important to understand that each element on a webpage - established in the HTML document - is a separate entity, or block, composed of pixels - the dots that make up the picture on a display screen. Using this type of mental framework to view an HTML document, or webpage, through makes it much easier to figure out how positioning works in HTML and CSS.
+        </p>
+        <p>
+        For newcomers to CSS, here is a brief explanation of the syntax used in this language:
+        </p>
+        <p>
+              selector {
+                  property: value;
+                  another_property: another_value;
+                  etc.
+                  etc.
+              }
+
+              another_selector {
+                  property: value;
+                  etc.
+              }
+        </p>
+        <p>
+        The "selectors" used above are taken directly from the HTML document based upon which selector it is that you would like to stylize in your CSS document. Once you have defined the selector that you are modifying, you use "properties" in order to define which category you would like to get your styling elements from. For the purpose of this post, the property we would be looking at is "position". The final element, "value", is the most specific of all the definitions we have reviewed: Value covers the exact way you would like to change the selector within the category of the property. In our case, the values would be 'absolute', 'relative', or 'fixed'.
+        </p>
+        <p>
+        To put it all together, if we wanted to set a paragraph's (represented by 'p' in HTML) postioning in an HTML document, we would use this language in our CSS document:
+        </p>
+        <p>
+            p {
+            position: absolute;
+            OR
+            position: relative;
+            OR
+            position: fixed;
+          }
+        </p>
+        <p>
+          So now that we have established the basis of HTML and CSS syntax, I will clarify what absolute, relative, and fixed positioning actually mean for an object on your page. Absolute positioning is the most extreme value of the position property, or category. Using absolute positioning, you can decide exactly where you would like to place and object on your webpage. If an object is positioned using absolute positioning, it's positioning will not be affected by other objects on the page. Relative positioning is more confusing since its definition is slightly counterintuitive. Setting an object's position property to the value relative means that the object will move in a manner that's relative to itself. Relative positioning is actually null unless other positioning attributes are also changed. For example, if the property 'left' was set to the value of 100px, the block in question would shift to the right 100px (from where it would naturally be in the document). The final positioning value, fixed, is used when you want to set an object in a certain position that will stay put even if you scroll up, down, left, or right. Fixed positioning is often used for elements such as scroll bars or headers that the designer planned for the user to see regardless of how far they scroll down the page.
+        </p>
+        <p>
+          Well, that was a lot of information for one post, and is still far from being a comprehensive guide to this topic in CSS, but hopefully it was a helpful primer for a beginner! Here is a link to a great (free!) place to practice these concepts in-depth: http://www.codecademy.com/en/tracks/web -- Good luck!
+        </p>
+        </div>
+
+<div class="post">
+
+  <h3>About Git</h3>
+  <h4>December 10, 2014</h4>
+      <p>
+        In this post, I will be recapping some of my learning highlights after completing the majority of Phase 0, Week 1 at Dev Bootcamp. This week, we were introduced to concepts such as version control, git (a version control software - more on that later), and the social code-sharing platform, GitHub. I will start with a brief definition of each of these topics and then explain what they do and why they are so important and useful to programmers.
+      </p>
+      <p>
+Version control is a form of software that enables the user to keep track of earlier versions of their code or project in case something goes wrong in future editions or a bug comes up that requires debugging. The benefits of version control are that the user, along with other collaborators on the project, are able to look back in time at other previous versions of their project if they decide they don't like an aspect of the current version they are working on, or if, after saving the most recent version, they discover that it caused some sort of error to occur in the program. This prevents the developers from having to go back through the entirety of their code to figure out exactly where they went wrong, since they will have saved previous versions that were clear of errors when they saved them. Next, I will discuss one of the most popular version control softwares, git, and the popular site where git can be posted for developers to collaborate or comment on each other's code, GitHub.
+</p>
+<p>
+Git is a version control software that a developer installs locally - on their computer - that they can access through the main device used to tell a computer what to do - the command-line interface (in a Mac, the CLI is Terminal). Git can be set to keep track of changes a user makes to their projects in text editors such as Sublime Text. When a user wishes to institute a change and 'new version' of their project, they simply add and commit the change in git (Committing a change means that the change has been "saved" as a new version). Using the command "git log", the developer can review past changes they have made which can come in handy if a problem comes up in the program at some point. The final topic I will touch on in today's post is the social code-sharing platform, GitHub.
+</p>
+<p>
+GitHub is a website where users can upload their code either directly, or by "pushing" or making pull requests to send their code from their terminal using the software git (discussed above) in order to collaborate with other people or have people review and comment on their projects. GitHub is a useful website because it allows collaborators to work on a project remotely, from different locations, and then push or pull their changes to github.com so that their changes or requests for changes are viewable by other people working on the project. GitHub also promotes the idea of Open Source code and code-sharing which endorses creativity and increased learning in the coding community.
+</p>
+<p>
+Well, I hope that I did not butcher any of these topics too much, and that someone can find my explanations helpful or useful in some way! Wish me luck for the next week of my coding adventure!
+</p>
+   </div>
+<div class="post">
+
+  <h3>Shereef's Fireside Chat</h3>
+  <h4>December 12, 2014</h4>
+      <p>
+        Shereef's Fireside Chat enforced the fact that DBC is largely what one makes of it, which I find both very exciting and a bit nerve-racking. I am really excited to be in such a creative and experimental learning environment, but worried about maintaining motivation when things get tough. I feel confident that DBC's system of continuous feedback and meta feedback will be helpful in this arena, though. </p>
+        <p>
+One of the first things that attracted me to DBC was the culture. I completely agreed with the sentiments in the Engineering Empathy video, and as a strong proponent of a daily mindful meditation practice, I really appreciate that DBC cares a lot about not only helping people become great software engineers, but also better and more present people in the process. Another aspect of the DBC culture and attitude that I really respect and am happy to be a part of is the attitude towards learning. I was extremely excited when I saw the suggested reading materials about reteaching yourself to learn more effectively in the Phase 0 prep period, and have been reading and loving the book A Mind for Numbers which seems to embody DBC's attitude that a fixed mindset and narrow, static view of one's own abilities and intellect is the most harmful perspective a person can have in regards to overall self-betterment. Over the last few years, I have become increasingly aware of how much life requires putting in the amount of effort and hard work that you want the equivalent level of reward and success from in return. This seemingly obvious realization has led me to become fascinated with the self-help realm that is focused on rewiring your brain and clearing your head in order to perform at your highest level of capability.
+</p>
+</div>
+
+</main>
+
+
+
+

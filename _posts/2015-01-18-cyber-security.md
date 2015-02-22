@@ -1,0 +1,11 @@
+---
+layout: post
+title: Cyber Security
+---
+I chose to explore issues regarding cyber security in this post due to the recent incident involving Sony. In late November, Sony's entire computer system was attacked by a group of hackers - 'GOP', or Guardians of Peace. This attack led to widespread dismay among the company, as classified information such as internal emails, future plans, and employee information had been compromised and was being leaked. Although cyber attacks have been a pressing security issue in the political sphere since the late 1980's - when the first recognised worm - 'The Morris worm' - spread around computers in the United States, slowing down computers until they were inoperable, the attack on the Sony computer network put the issue largely on the mainstream's radar.
+
+As sensitive personal information is increasingly proliferated into the open through widely-used web and mobile applications, cyber security is a huge issue that faces the tech world today. This is especially true since many apps are crossing over into different areas, for example, from social media to finance - such as Snapchat's payment feature - creating many applications that have many different types of sensitive information all in one place.
+
+In a recent meeting where British Prime Minister David Cameron and President Obama discussed the issue of cybersecurity, David Cameron went as far as to suggest outlawing certain forms of encryption such as that found in the most widely used form of remote communication - iMessage (http://www.theguardian.com/commentisfree/2015/jan/17/cameron-obama-ban-encryption-improve-cybersecurity). The results of this could be potentially catastrophic, and this type of a statement by a prominent country's leader just shows how dire the cybersecurity issue is for national security.
+
+I do not have solutions as to the issue of cybersecurity, or even suggestions of how to prevent future attacks; however, I do believe that marching forward into the world of creation and development in tech should be done cautiously and with the imminent threats of cyber attacks in mind. As seen with the Sony incident, these attacks have a low likelihood of being 'harmless', given how much personal information about each and every one of us is already out in the open online.
